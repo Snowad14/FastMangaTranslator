@@ -1,0 +1,9 @@
+ultralytics
+paddlepaddle-gpu==2.4.2
+PyHyphen
+numpy
+gradio
+flask
+transformers==4.34.1
+tensorrt-llm==0.7.1
+pillow==10.2.0

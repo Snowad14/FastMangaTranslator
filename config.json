@@ -1,0 +1,15 @@
+{
+    "folder_to_translate": "images",
+    "models_dir": "models",
+    "resize_offset": -15,
+    "source_lang": "en",
+    "target_lang": "fr",
+    "use_ocr_gpu": true,
+    "use_tensorRT_detection": true,
+    "inpaint_radius": 1,
+    "font_path": "norb.ttf",
+    "prompt": "Tu es traducteur professionnel, traduis ce texte en français.",
+    "trt_engine_path": "models/croissant_engine",
+    "trt_engine_name": "llama_bfloat16_tp1_rank0.engine",
+    "tokenizer_dir_path": "models/croissant_engine/tokenizer"
+}
