@@ -4,7 +4,7 @@
 
 ![Demo of the project](assets/demo.gif)
 
-️🚨 Japanese isn't supported, as it would require quite a lot of code modification, but above all because no LLM is good enough for it to be interesting, so it's a translator that aims to translate manga already translated mainly in English into other languages.  **Note :** The project should also work for webtoons
+️🚨 Japanese isn't supported, as it would require quite a lot of code modification, but above all because no LLM is good enough for it to be interesting, so it's a translator that aims to translate manga already translated mainly in English into other languages.  **Note :** The project should also works for webtoons
 
 ## Requirements 📋
 
@@ -49,4 +49,23 @@ Once you have obtained your model, you need to add it to the `config.json` file 
 
 ## Acknowledgements
 
-There are many other manga translation projects, but this one focuses on a quick translation, using the yolo model from [this page hugging face] (https://huggingface.co/ogkalu/comic-speech-bubble-detector-yolov8m).
+There are many other manga translation projects, but this one focuses on a quick translation, using the yolo model from [this page hugging face](https://huggingface.co/ogkalu/comic-speech-bubble-detector-yolov8m).
+
+## Gen AI on RTX PCs Developer Contest Entry details
+
+This project is a submission for the NVIDIA RTX PCs Developer Contest, under the General Generative AI Projects category.
+
+Category: [General Generative AI Projects category](https://www.nvidia.com/en-us/ai-data-science/generative-ai/rtx-developer-contest)
+
+**Tested on following system:**
+- Operating System: Windows 11
+  - Version: 23H2
+  - OS Build: 10.0.22631
+- TensorRT-LLM version: 0.7.1
+  - CUDA version: 12.2
+  - cuDNN version: 8.9.7.29 
+  - GPU: NVIDIA RTX 3090
+  - Driver version: 537.13
+  - DataType: FP16
+  - Python version: 3.10.13
+  - PyTorch version: 2.1.0+cu121
