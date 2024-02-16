@@ -20,6 +20,7 @@
 pip install -r requirements.txt
 ```
 -  Download models from [this link](https://huggingface.co/Snowad/animeTagger/resolve/main/models.zip) and put them in the models/ folder
+- The Bubble detection model uses TensorRT, but the conversion is done automatically.
 
 ## Setup 🔧
 
