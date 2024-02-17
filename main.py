@@ -97,7 +97,7 @@ def process_image(input_file, use_inpainting=False):
             x1, y1, x2, y2 = bubble.inner_bbox
             if index < len(all_texts_translated):
                 bubble.text = all_texts_translated[index]
-            write_in_bbox(pillow_image , bubble.text, (x1, y1, x2, y2), args.get("font_path"), use_hyphenator=args.get("use_hyphenator"))
+            write_in_bbox(pillow_image , bubble.text, (x1, y1, x2, y2), args.get("font_path"), use_hyphenator=args.get("use_hyphenator"), hyphenator_lang=args.get("target_lang"))
 
     
     pillow_image.save("output.jpg")

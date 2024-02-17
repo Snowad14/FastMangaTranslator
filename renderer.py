@@ -30,8 +30,8 @@ def get_avg_char_width(font, text):
     widths = [font.getbbox(char)[2] for char in text if not char.isspace()]
     return sum(widths) / len(widths)
 
-def draw_text_with_autofit(image, txt, xy, area_width, area_height, font_path, min_font_size=5, show_rect=False, use_hyphenator=False, hyphenator_lang="en_US"):
-    hyphenator_lang 
+def draw_text_with_autofit(image, txt, xy, area_width, area_height, font_path, min_font_size=5, show_rect=False, use_hyphenator=False, hyphenator_lang="en"):
+    hyphenator_lang = lang_abrev(hyphenator_lang)
     h_fr = Hyphenator(hyphenator_lang)
     x, y = xy
     draw = ImageDraw.Draw(image)
